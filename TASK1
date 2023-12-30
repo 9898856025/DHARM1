@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharma Patel - Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="portfolio-container">
+        <div class="hero">
+            <img src="" alt="a girl smiling" class="hero--image">
+            <div class="hero--bio">
+                <h1>Dharma Patel</h1>
+                <h3>Product Designer</h3>
+                <p class="basic-info">I’m a product designer. I’m passionate about creating usable digital products. I
+                    have worked with incredibly talented people across different companies.</p>
+                <nav>
+                    <a href="#about" class="nav--btn">About</a>
+                    <a href="#projects" class="nav--btn">Projects</a>
+                    <a href="#contact" class="nav--btn">Contact</a>
+                    <a href="#" class="nav--btn">Resume</a>
+                </nav>
+            </div>
+        </div>
+
+        <section id="about" class="project-wrapper">
+            <h2>About Me</h2>
+            <p class="basic-info">I'm a web developer with a passion for creating responsive and user-friendly websites.
+                My expertise includes HTML, CSS, JavaScript, and more.</p>
+        </section>
+
+        <section id="skills" class="project-wrapper">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="project-wrapper">
+            <h2>Projects</h2>
+            <div class="project-name">
+                <h3 class="project-title">SWIL Clothing Store</h3>
+                <p class="project-description">How to help people find budget-friendly holiday destinations when they
+                    are not sure where to go and how</p>
+            </div>
+            <img src="https://uxfol.io/template-previews/theme-pictures/theme_02-project-thumbnail-01.png" alt=""
+                class="project-thumbnail">
+        </section>
+
+        <section id="projects" class="project-wrapper">
+            <div class="project-name">
+                <h3 class="project-title">PLNT Online Magazine</h3>
+                <p class="project-description">PLNT is an online magazine with an accompanying mobile app helping users
+                    take care of their succulents with helpful tricks, dozens of articles and video guides.</p>
+            </div>
+            <img src="https://uxfol.io/template-previews/theme-pictures/theme_02-project-thumbnail-02.png" alt=""
+                class="project-thumbnail">
+        </section>
+
+        <section id="contact" class="project-wrapper">
+            <h2>Contact</h2>
+            <p>Email: your.email@example.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/yourusername"
+                    target="_blank">linkedin.com/in/yourusername</a></p>
+            <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+        </section>
+
+        <footer>
+            <p>facebook</p>
+            <p>twitter</p>
+            <p>pinterest</p>
+        </footer>
+    </div>
+</body>
+
+
+</html>
